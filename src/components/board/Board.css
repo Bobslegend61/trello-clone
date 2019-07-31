@@ -1,0 +1,61 @@
+#board {
+  height: 100vh;
+}
+
+header.board {
+  background: #fff;
+  color: rgb(236, 98, 98);
+  text-align: start;
+}
+
+#board form {
+  margin-top: 0.6rem;
+}
+
+#board input {
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 3px;
+  height: 1.5rem;
+  padding: 5px;
+}
+
+#board .card.form {
+  display: inline-block;
+  text-align: center;
+  background: rgb(236, 98, 98);
+  color: #fff;
+}
+
+.board-cards {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 7px; */
+  display: flex;
+  overflow-x: auto;
+  height: 100%;
+}
+
+.board-cards .card {
+  box-shadow: none;
+  border: 1px solid rgb(207, 207, 207);
+  margin-right: 5px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 2rem;
+  height: 100%;
+}
+
+li {
+  box-shadow: 0 2px 4px rgb(236, 236, 236);
+  padding: 10px 0;
+}
+
+button {
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: rgb(238, 238, 238);
+  padding: 0.5rem 1rem;
+}
